@@ -1,7 +1,7 @@
-https://cytelsystem.github.io/Pizza-front/
+https://cytelsystem.github.io/EncommerceCard/
 
-# Pizza&Front
+# Emmcomerce
 
-## lenguaje HTML
+## lenguaje HTML y Css
 
 ### Clase de Front-End
