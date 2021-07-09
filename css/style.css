@@ -202,3 +202,28 @@ main {
   padding: 15px 30px 15px 30px;
   border-radius: 1%;
 }
+
+/* ****************FOOTER*********************** */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footercontenedor {
+  max-width: var(--maxw);
+  background-color: var(--ColorPrimario);
+  width: 100%;
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+}
+.footercontenedor h3 {
+  color: var(--ColorOnceario);
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.footercontenedor h3 span {
+}
