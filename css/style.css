@@ -103,3 +103,102 @@ header {
   font-weight: normal;
   font-size: 16px;
 }
+
+/* **********************MAIN*************************** */
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.maincontenedor {
+  max-width: var(--maxw);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8%;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+.maincontenedor .mainconttarge {
+  background-color: var(--ColorDecimoario);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  height: 529px;
+  padding-bottom: 25px;
+  box-shadow: var(--Pshadow2);
+}
+
+.mainconttarge .targefond1 {
+  background-image: url(../img/Guaridadebatman.png);
+}
+.mainconttarge .targefoto1 {
+  background-image: url(../img/batman.png);
+}
+.mainconttarge .targefond2 {
+  background-image: url(../img/fondoHarleyQuinn.png);
+}
+.mainconttarge .targefoto2 {
+  background-image: url(../img/HarleyQuinn.png);
+}
+.mainconttarge .targefond3 {
+  background-image: url(../img/Guaridadebatman.png);
+}
+.mainconttarge .targefoto3 {
+  background-image: url(../img/batman.png);
+}
+
+.mainconttarge .targebanner {
+  background-color: var(--backgroundImg);
+  /* background-image: url(../img/Guaridadebatman.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 193px;
+  border-radius: 16px 16px 0px 0px;
+  padding: 15px;
+}
+.mainconttarge .targefoto {
+  background-color: var(--backgroundImg);
+  /* background-image: url(../img/batman.png); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -50px;
+}
+.mainconttarge .targenombre {
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: var(--ColorTerceario);
+}
+.mainconttarge .targetexto {
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--ColorQuinario);
+  text-align: justify;
+  padding: 17px;
+}
+.mainconttarge .targetexto p {
+}
+.mainconttarge .targebtn {
+  font-family: var(--fon1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: var(--ColorDecimoario);
+  background-color: var(--ColorPrimario);
+  padding: 15px 30px 15px 30px;
+  border-radius: 1%;
+}
