@@ -121,7 +121,7 @@ main {
   flex-wrap: wrap;
 }
 
-.divbtnmas {
+.maincontenedor .divbtnmas {
   background-color: var(--ColorPrimario);
   max-height: 50%;
   max-width: 50%;
@@ -242,4 +242,32 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+}
+
+/* ************************************
+***********MEDIA QUERIES************
+************************************ */
+
+@media screen and (max-width: 768px) {
+  .maincontenedor .divbtnmas {
+    top: 50%;
+    right: 2%;
+  }
+  .maincontenedor .mainconttarge {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .headerDivTop {
+    padding: 5px 0 5px 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .headerDivBottom {
+    padding: 10px 0 10px 0px;
+  }
+
+  .headerDivBottom ul {
+    justify-content: space-evenly;
+  }
 }
