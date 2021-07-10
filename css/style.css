@@ -202,3 +202,19 @@ main {
   padding: 15px 30px 15px 30px;
   border-radius: 1%;
 }
+
+.divbtnmas {
+  background-color: var(--ColorPrimario);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  right: 8%;
+}
+.divbtnmas i {
+  font-size: 40px;
+}
