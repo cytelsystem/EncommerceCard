@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
 :root {
   --maxw: 1440px;
   --fon1: "Roboto", sans-serif;
@@ -219,6 +221,76 @@ main {
   background-color: var(--ColorPrimario);
   padding: 15px 30px 15px 30px;
   border-radius: 1%;
+}
+
+/* 
+************FORMULARIO LOGIN**************** */
+
+.maincontlogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  width: 35%;
+}
+.maincontlogin .logintitulo {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logintitulo h1 {
+  font-family: Inter;
+  font-size: 72px;
+  text-align: center;
+  color: var(--ColorQuinario);
+}
+.maincontlogin form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 5%;
+  margin-top: 7%;
+}
+
+.maincontlogin input {
+  max-width: 110%;
+  width: 100%;
+  max-height: 100%;
+  background: var(--ColorNovenoario);
+  border: 1.53407px solid #000000;
+  box-sizing: border-box;
+  font-family: Karla;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--ColorTerceario);
+  padding: 3%;
+}
+
+.maincontlogin [type="submit"] {
+  background: #1cd1b0;
+  border-radius: 23.011px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--ColorTerceario);
+  margin-top: 5%;
+  border: none;
+}
+.maincontlogin .formctareg {
+}
+.maincontlogin .formctareg a {
+  font-family: Karla;
+  line-height: 28px;
+  color: var(--ColorPrimario);
+}
+.maincontlogin .formctareg span {
+  color: var(--ColorSextario);
 }
 
 /* ****************FOOTER*********************** */
