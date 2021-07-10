@@ -328,8 +328,16 @@ footer {
   .maincontenedor .mainconttarge {
     margin-bottom: 35px;
   }
+
+  /* *********Login************* */
+  .maincontlogin {
+    width: 50%;
+  }
+  .logintitulo h1 {
+    font-size: 50px;
+  }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 468px) {
   .headerDivTop {
     padding: 5px 0 5px 5px;
     display: flex;
@@ -341,5 +349,13 @@ footer {
 
   .headerDivBottom ul {
     justify-content: space-evenly;
+  }
+
+  /* *********Login************* */
+  .maincontlogin {
+    width: 80%;
+  }
+  .logintitulo h1 {
+    font-size: 40px;
   }
 }
