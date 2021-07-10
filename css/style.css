@@ -59,7 +59,6 @@ header {
 .headercontenedor {
   max-width: var(--maxw);
   width: 100%;
-  background-color: red;
 }
 
 .headerDivTop {
@@ -98,7 +97,7 @@ header {
   justify-content: flex-end;
   gap: 1%;
 }
-.headerDivBottom li {
+.headerDivBottom li a {
   color: var(--ColorNovenoario);
   font-family: var(--fon1);
   font-style: normal;
@@ -272,7 +271,7 @@ main {
 }
 
 .maincontlogin [type="submit"] {
-  background: #1cd1b0;
+  background: var(--ColorSecundario);
   border-radius: 23.011px;
   font-family: Karla;
   font-style: normal;
