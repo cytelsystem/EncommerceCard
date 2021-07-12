@@ -129,6 +129,9 @@ main {
   flex-wrap: wrap;
 }
 
+.maincontenedor .divbtnmas i:hover {
+  font-size: 60px;
+}
 .maincontenedor .divbtnmas {
   background-color: var(--ColorPrimario);
   max-height: 50%;
