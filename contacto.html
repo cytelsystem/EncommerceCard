@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../EncommerceCard/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="headercontenedor">
+        <div class="headerDivTop">
+          <h3>20% de descuento en todos los productos!</h3>
+        </div>
+        <div class="headerDivMain">
+          <img src="../EncommerceCard/img/Logo.png" alt="Imagen Logo" />
+          <h1>Tienda de Batman</h1>
+        </div>
+        <div class="headerDivBottom">
+          <nav>
+            <ul>
+              <li><a href="../EncommerceCard/contacto.html">Contacto</a></li>
+              <li><a href="../EncommerceCard/registro.html">Registrarme</a></li>
+              <li><a href="../EncommerceCard/login.html">Ingresar</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="maincontenedor">
+        <div class="maincontreg formcont">
+          <div class="mainregtitulo formtituloprinc">
+            <h1>Registro</h1>
+          </div>
+          <form action="#" method="post">
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre y Apellido"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Correo Electrónico"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Contraseña"
+              required
+            />
+
+            <select name="Pais" id="pais">
+              <option>País</option>
+              <option value="Argentina">Colombia</option>
+              <option value="Argentina">Argentina</option>
+            </select>
+
+            <div class="formregbtn">
+              <input class="btn" type="reset" value="reset" />
+              <input class="btn" type="submit" value="Registrar" />
+            </div>
+
+            <a href="#">¿Ya tenés una cuenta?<span> Ingresá</span></a>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footercontenedor">
+        <h3>Todos los derechos reservados a <span>FRONT END 1</span></h3>
+      </div>
+    </footer>
+  </body>
+</html>
