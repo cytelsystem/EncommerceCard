@@ -223,30 +223,27 @@ main {
   border-radius: 1%;
 }
 
-/* 
-************FORMULARIO LOGIN**************** */
-
-.maincontlogin {
+/* ************FORMULARIOS************************ */
+.formcont {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 100%;
   width: 35%;
 }
-.maincontlogin .logintitulo {
+.formtituloprinc {
   width: 100%;
   max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
-
-.logintitulo h1 {
+.formtituloprinc h1 {
   font-family: Inter;
   font-size: 72px;
   text-align: center;
   color: var(--ColorQuinario);
 }
-.maincontlogin form {
+.formcont form {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -256,8 +253,8 @@ main {
   gap: 5%;
   margin-top: 7%;
 }
-
-.maincontlogin input {
+.formcont form input,
+select {
   max-width: 110%;
   width: 100%;
   max-height: 100%;
@@ -270,27 +267,54 @@ main {
   color: var(--ColorTerceario);
   padding: 3%;
 }
-
-.maincontlogin [type="submit"] {
-  background: var(--ColorSecundario);
+.formcont form a {
+  font-family: Karla;
+  line-height: 28px;
+  color: var(--ColorPrimario);
+}
+.formcont form span {
+  color: var(--ColorSextario);
+}
+.formcont .btn {
   border-radius: 23.011px;
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  color: var(--ColorTerceario);
   margin-top: 5%;
   border: none;
 }
-.maincontlogin .formctareg {
+
+/* 
+************Formulario login**************** */
+
+.maincontlogin [type="submit"] {
+  background: var(--ColorSecundario);
+  color: var(--ColorTerceario);
 }
-.maincontlogin .formctareg a {
-  font-family: Karla;
-  line-height: 28px;
-  color: var(--ColorPrimario);
+
+/* 
+************FORMULARIO REGISTRO**************** */
+
+.maincontreg form {
+  margin-top: 15%;
 }
-.maincontlogin .formctareg span {
-  color: var(--ColorSextario);
+
+.maincontreg .formregbtn {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: row;
+  gap: 7px;
+}
+.formregbtn input[type="reset"] {
+  background: var(--ColorOctarioario);
+  color: var(--ColorNovenoario);
+}
+.formregbtn input[type="submit"] {
+  background: var(--ColorSecundario);
+  color: var(--ColorTerceario);
 }
 
 /* ****************FOOTER*********************** */
@@ -330,10 +354,10 @@ footer {
   }
 
   /* *********Login************* */
-  .maincontlogin {
+  .formcont {
     width: 50%;
   }
-  .logintitulo h1 {
+  .formtituloprinc h1 {
     font-size: 50px;
   }
 }
@@ -352,10 +376,10 @@ footer {
   }
 
   /* *********Login************* */
-  .maincontlogin {
+  .formcont {
     width: 80%;
   }
-  .logintitulo h1 {
+  .formtituloprinc h1 {
     font-size: 40px;
   }
 }

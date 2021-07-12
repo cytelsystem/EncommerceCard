@@ -35,24 +35,45 @@
 
     <main>
       <div class="maincontenedor">
-        <div class="maincontlogin formcont">
-          <div class="logintitulo formtituloprinc">
-            <h1>Login</h1>
+        <div class="maincontreg formcont">
+          <div class="mainregtitulo formtituloprinc">
+            <h1>Registro</h1>
           </div>
-
-          <form action="#" method="POST">
-            <input type="text" placeholder="Usuario" required />
+          <form action="#" method="post">
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre y Apellido"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Correo Electrónico"
+              required
+            />
             <input
               type="password"
               name="password"
-              id="passwd"
+              id="password"
               placeholder="Contraseña"
               required
             />
-            <input class="btn" type="submit" value="Entrar" />
-            <div class="formctareg">
-              <a href="#">¿No tienes una cuenta? <span>Registrarme</span></a>
+
+            <select name="Pais" id="pais">
+              <option>País</option>
+              <option value="Argentina">Colombia</option>
+              <option value="Argentina">Argentina</option>
+            </select>
+
+            <div class="formregbtn">
+              <input class="btn" type="reset" value="reset" />
+              <input class="btn" type="submit" value="Registrar" />
             </div>
+
+            <a href="#">¿Ya tenés una cuenta?<span> Ingresá</span></a>
           </form>
         </div>
       </div>
